@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface ExamenRepositorio {
     List<Examen> findAll();
+
 }
