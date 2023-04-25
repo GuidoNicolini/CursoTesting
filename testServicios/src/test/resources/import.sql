@@ -1,0 +1,6 @@
+INSERT INTO cuentas (nombre,saldo) VALUES ('Guido', 1000)
+INSERT INTO cuentas (nombre,saldo) VALUES ('Pepe', 2000)
+INSERT INTO cuentas (nombre,saldo) VALUES ('Juan', 3000)
+INSERT INTO cuentas (nombre,saldo) VALUES ('Maria', 4000)
+INSERT INTO cuentas (nombre,saldo) VALUES ('Romeo', 5000)
+INSERT INTO cuentas (nombre,saldo) VALUES ('Julieta', 6000)

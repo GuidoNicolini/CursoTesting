@@ -2,10 +2,15 @@ package com.guido.testServicios.models;
 
 import com.guido.testServicios.exceptions.DineroInsuficienteException;
 
+import javax.persistence.*;
 import java.util.Objects;
 
+@Entity
+@Table(name = "cuentas")
 public class Cuenta {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nombre  ;
     private  Long saldo  ;

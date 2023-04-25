@@ -42,7 +42,7 @@ class TestServiciosApplicationTests {
 		assertEquals("Guido",c1.getNombre());
 		assertTrue(c1.getSaldo() >= 500 && c2.getSaldo() >= 500);
 		assertEquals(500L,c1.getSaldo());
-		verify(cuentaRepository,times(2)).update(any(Cuenta.class));
+		verify(cuentaRepository,times(2)).save(any(Cuenta.class));
 
 
 	}
@@ -58,4 +58,5 @@ class TestServiciosApplicationTests {
 			c1.debito(999999990L);
 		});
 	}
+
 }
